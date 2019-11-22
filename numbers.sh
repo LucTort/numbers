@@ -10,8 +10,7 @@ echo i
 i=1
 while ((i <= input))
 do
-	if [ $((i%2)) -eq 0 ]
-	echo
+	if [ $(( $i % 2 )) -eq 0 ]
 	then
 			echo $i " even"
 		else 
