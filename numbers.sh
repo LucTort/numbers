@@ -8,7 +8,7 @@ echo -n "Please enter a positive integer: "; read input
 echo i
 
 i=1
-while [ $i -le $input ]
+while ((i <= input))
 do
 	if [ $((i%2)) -eq 0 ]
 	echo
